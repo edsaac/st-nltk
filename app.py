@@ -5,7 +5,9 @@ _default_text = """Punkt knows that the periods in Mr. Smith and Johann S.
 Bach do not mark sentence boundaries.  And sometimes sentences can start with 
 non-capitalized words.  i is a good variable name."""
 
-st.title("NKTK")
+st.title("NLTK example")
+"Example from https://www.nltk.org/api/nltk.tokenize.punkt.html"
+
 text = st.text_area("Insert text to tokenize", value=_default_text)
 
 try:
